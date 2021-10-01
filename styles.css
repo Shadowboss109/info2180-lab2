@@ -13,7 +13,8 @@ p,ul,section,aside,main,a{
 .container{
     display: grid;
     grid-template-columns: auto 350px;
-    grid-template-rows: 300px 850px 50px; 
+    grid-template-rows: 300px 850px 50px;
+    grid-gap: 10px; 
     
 }
 
@@ -24,6 +25,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;color: #FFFFFF;
+    
 
     
 
@@ -77,6 +79,8 @@ h2{
     color: #000000;
     background-color:#E2E8F0 ;
     padding: 30px;
+    padding-top: 20px;
+
 }
 section{
     font-family: Georgia, 'Times New Roman', Times, serif;
