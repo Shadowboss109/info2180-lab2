@@ -1,0 +1,86 @@
+.myself{
+    border-radius: 50%;
+    
+}
+
+p,ul,section,aside,main,a{
+
+    color: #2D3748 ;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  'Helvetica Neue', Arial, "Noto Sans",  sans-serif;
+}   
+
+.container{
+    display: grid;
+    grid-template-columns: auto 350px;
+    grid-template-rows: 300px 850px 50px; 
+    
+}
+
+header{
+    background-color: #63B3ED;
+    grid-column: 1/3;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;color: #FFFFFF;
+
+    
+
+       
+}
+main{
+   
+    grid-column: 1/2;
+    grid-row: 2;
+    padding: 40px;
+}
+aside{
+    
+    grid-column: 2;
+    grid-row: 2;
+
+}
+footer{
+    
+    grid-column: 1/3;
+    grid-row: 3;
+    background-color: #2C5282 ;
+    
+    padding-left: 80px;
+
+}
+.footer{
+   color: #FFFFFF; 
+}
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+.Date{
+    color: #718096;
+
+}
+
+#Social,#Archives{
+    color:#48BB78;
+    padding: 30px;
+}
+#About{
+    color: #000000;
+    background-color:#E2E8F0 ;
+    padding: 30px;
+}
+section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pic1,.pic2{
+ float: right;
+
+}   
